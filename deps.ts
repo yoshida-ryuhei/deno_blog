@@ -1,28 +1,28 @@
 // Copyright 2022 the Deno authors. All rights reserved. MIT license.
 
-export { serveDir } from "https://deno.land/std@0.193.0/http/file_server.ts";
-export { walk } from "https://deno.land/std@0.193.0/fs/walk.ts";
+export { serveDir } from "https://deno.land/std@0.211.0/http/file_server.ts";
+export { walk } from "https://deno.land/std@0.211.0/fs/walk.ts";
 export {
   dirname,
   fromFileUrl,
   join,
   relative,
-} from "https://deno.land/std@0.193.0/path/mod.ts";
+} from "https://deno.land/std@0.211.0/path/mod.ts";
 export {
   type ConnInfo,
   serve,
-} from "https://deno.land/std@0.193.0/http/mod.ts";
-export { extract as frontMatter } from "https://deno.land/std@0.193.0/front_matter/any.ts";
+} from "https://deno.land/std@0.211.0/http/mod.ts";
+export { extract as frontMatter } from "https://deno.land/std@0.211.0/front_matter/any.ts";
 
-export * as gfm from "https://deno.land/x/gfm@0.2.5/mod.ts";
-export { Fragment, h } from "https://deno.land/x/htm@0.1.3/mod.ts";
+export * as gfm from "https://deno.land/x/gfm@0.4.0/mod.ts";
+export { Fragment, h } from "https://deno.land/x/htm@0.2.1/mod.ts";
 export {
   default as html,
   type HtmlOptions,
   type VNode,
-} from "https://deno.land/x/htm@0.1.3/html.tsx";
-import UnoCSS from "https://deno.land/x/htm@0.1.3/plugins/unocss.ts";
-import ColorScheme from "https://deno.land/x/htm@0.1.3/plugins/color-scheme.ts";
+} from "https://deno.land/x/htm@0.2.1/html.tsx";
+import UnoCSS from "https://deno.land/x/htm@0.2.1/plugins/unocss.ts";
+import ColorScheme from "https://deno.land/x/htm@0.2.1/plugins/color-scheme.ts";
 
 export {
   createReporter,
