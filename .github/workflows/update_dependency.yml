@@ -14,7 +14,7 @@ jobs:
         with:
           deno-version: 1.x
       - name: Update dependencies
-        run: deno run --allow-all https://deno.land/x/udd@0.8.2/main.ts $(find . -name \*.ts)
+        run: deno run --allow-all https://deno.land/x/udd@0.8.2/main.ts $(find . -name \*.ts -o -name \*.tsx)
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         id: pr
