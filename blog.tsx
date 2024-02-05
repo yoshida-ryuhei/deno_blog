@@ -26,7 +26,7 @@ import {
   UnoCSS,
   walk,
 } from "./deps.ts";
-import { pooledMap } from "https://deno.land/std@0.187.0/async/pool.ts";
+import { pooledMap } from "https://deno.land/std@0.214.0/async/pool.ts";
 import { Index, PostPage } from "./components.tsx";
 import type { FeedItem } from "./deps.ts";
 import type {
@@ -36,7 +36,7 @@ import type {
   BlogState,
   Post,
 } from "./types.d.ts";
-import { WalkEntry } from "https://deno.land/std@0.176.0/fs/walk.ts";
+import { WalkEntry } from "https://deno.land/std@0.214.0/fs/walk.ts";
 
 export { Fragment, h };
 
