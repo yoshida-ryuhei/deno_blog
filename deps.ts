@@ -10,7 +10,7 @@ export {
 } from "https://deno.land/std@0.214.0/path/mod.ts";
 export { extract as frontMatter } from "https://deno.land/std@0.214.0/front_matter/any.ts";
 
-export * as gfm from "https://deno.land/x/gfm@0.4.0/mod.ts";
+export * as gfm from "https://deno.land/x/gfm@0.6.0/mod.ts";
 export { Fragment, h } from "https://deno.land/x/htm@0.1.2/mod.ts";
 export {
   default as html,
