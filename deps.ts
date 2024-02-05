@@ -11,14 +11,14 @@ export {
 export { extract as frontMatter } from "https://deno.land/std@0.214.0/front_matter/any.ts";
 
 export * as gfm from "https://deno.land/x/gfm@0.6.0/mod.ts";
-export { Fragment, h } from "https://deno.land/x/htm@0.1.4/mod.ts";
+export { Fragment, h } from "https://deno.land/x/htm@0.2.1/mod.ts";
 export {
   default as html,
   type HtmlOptions,
-  type VNode,
-} from "https://deno.land/x/htm@0.1.4/html.tsx";
-import UnoCSS from "https://deno.land/x/htm@0.1.4/plugins/unocss.ts";
-import ColorScheme from "https://deno.land/x/htm@0.1.4/plugins/color-scheme.ts";
+} from "https://deno.land/x/htm@0.2.1/html.tsx";
+export { JSXNode } from "https://deno.land/x/htm@0.2.1/jsx.ts";
+import UnoCSS from "https://deno.land/x/htm@0.2.1/plugins/unocss.ts";
+import ColorScheme from "https://deno.land/x/htm@0.2.1/plugins/color-scheme.ts";
 
 export {
   createReporter,

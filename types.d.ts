@@ -1,6 +1,6 @@
 // Copyright 2022 the Deno authors. All rights reserved. MIT license.
 
-import type { UnoConfig, VNode } from "./deps.ts";
+import type { JSXNode, UnoConfig } from "./deps.ts";
 
 export interface BlogContext {
   state: BlogState;
@@ -36,18 +36,18 @@ export interface BlogSettings {
     /** The link */
     url: string;
     /** The element to use as the icon of the link */
-    icon?: VNode;
+    icon?: JSXNode;
     /** The link target */
     target?: "_self" | "_blank" | "_parent" | "_top";
   }[];
   /** The element ot use as header */
-  header?: VNode;
+  header?: JSXNode;
   /** Whether to show the header on post pages */
   showHeaderOnPostPage?: boolean;
   /** The element to use as section. Access to Post props. */
-  section?: (post: Post) => VNode;
+  section?: (post: Post) => JSXNode;
   /** The element to use as footer */
-  footer?: VNode;
+  footer?: JSXNode;
   /** Custom CSS */
   style?: string;
   /** URL to open graph image. Can be relative. */
